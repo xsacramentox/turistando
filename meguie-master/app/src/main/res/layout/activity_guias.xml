@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guias">
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="525dp"
+        android:layout_height="845dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/blank" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="144dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="656dp"
+        android:layout_marginEnd="267dp"
+        android:rotation="174"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:translationY="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/flairgray" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="144dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="297dp"
+        android:layout_marginBottom="609dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:translationY="-70dp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/flairgray" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="348dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="622dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Guias Disponíveis"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lvGuia"
+        android:layout_width="392dp"
+        android:layout_height="575dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="4dp"
+        android:divider="@null"
+        android:dividerHeight="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

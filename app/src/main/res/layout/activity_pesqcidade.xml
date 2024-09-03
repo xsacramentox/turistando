@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Meguie"
+    tools:context=".pesqcidade">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="922dp"
+        android:layout_height="1093dp"
+        app:srcCompat="@mipmap/fundo"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="-214dp"
+        tools:layout_editor_absoluteY="-96dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="326dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="580dp"
+        android:rotation="-8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/flairred" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="326dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="216dp"
+        android:rotation="-190"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/flairred" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="335dp"
+        android:layout_height="322dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/guiaicone" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="186dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF5656"
+        android:text="Pesquisar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="299dp"
+        android:layout_height="73dp"
+        android:text="Pesquise uma cidade"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="389dp"
+        android:layout_height="131dp"
+        android:background="#000C0C0C"
+        android:scaleX="2.5"
+        android:scaleY="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541"
+        app:srcCompat="@mipmap/bubble" />
+
+    <SearchView
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="374dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="325dp"
+        android:textColor="#000000"
+        android:textColorHint="#80000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </SearchView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

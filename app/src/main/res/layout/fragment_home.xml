@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/txtEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="331dp"
+        android:layout_marginBottom="660dp"
+        android:text="Você ainda não fez nenhum passeio"
+        android:translationX="95dp"
+        android:translationY="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="326dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginEnd="244dp"
+        android:rotation="-91"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/flairgray" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="326dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginBottom="683dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        app:srcCompat="@mipmap/flairgray" />
+
+    <TextView
+        android:id="@+id/txtOla"
+        android:layout_width="200dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="684dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Olá"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="226dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="612dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Meus Passeios"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="315dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="378dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Que tal um passeio hoje?"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listRoteiroHome"
+        android:layout_width="409dp"
+        android:layout_height="345dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="354dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="190dp"
+        android:translationY="-160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ListView
+            android:id="@+id/listViewViagens"
+            android:layout_width="409dp"
+            android:layout_height="191dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="420dp"
+            android:clickable="false"
+            android:divider="@null"
+            android:orientation="vertical"
+            android:rotationX="0"
+            android:scrollbars="horizontal"
+            android:translationY="-120dp"
+            android:verticalScrollbarPosition="right"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

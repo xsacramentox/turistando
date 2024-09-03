@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/DescricaoHome"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="390dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="292dp"
+        android:alpha=".5"
+        android:fontFamily="@font/poppins_semibold"
+        android:maxLength="300"
+        android:maxLines="300"
+        android:singleLine="false"
+        android:text="Des"
+        android:textAlignment="textStart"
+        android:textSize="14dp"
+        android:translationX="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imagemRoteiroHome"
+        android:layout_width="383dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="545dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@color/colorAccent"
+        android:translationX="-9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundsquare" />
+
+    <TextView
+        android:id="@+id/txtTituloHome"
+        android:layout_width="289dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="492dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

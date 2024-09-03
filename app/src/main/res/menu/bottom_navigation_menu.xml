@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_baseline_house_24"
+        android:title="Homepage" />
+
+    <item android:id="@+id/navigation_roteiro"
+        android:icon="@drawable/ic_baseline_place_24"
+        android:title="Roteiros" />
+
+</menu>

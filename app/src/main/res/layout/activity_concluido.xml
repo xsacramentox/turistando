@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".concluido">
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="525dp"
+        android:layout_height="845dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/blank" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="326dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="580dp"
+        android:rotation="-8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/flairgray" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="326dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="216dp"
+        android:rotation="-190"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/flairgray" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="348dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="334dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="334dp"
+        android:text="Solicitação Confirmada"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView34"
+        android:layout_width="431dp"
+        android:layout_height="407dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="317dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/Circle"
+        app:srcCompat="@mipmap/check" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="336dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="403dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="307dp"
+        android:text="Aguarde a confirmação do guia escolhido"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="260dp"
+        android:text="Enviaremos uma notificação quando isso ocorrer"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image_rot"
+        android:layout_width="177dp"
+        android:layout_height="94dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@color/colorAccent"
+        android:translationX="8dp"
+        app:shapeAppearanceOverlay="@style/roundsquare" />
+
+    <TextView
+        android:id="@+id/textoTitulo"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/image_rot"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textoCidade"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/image_rot"
+        android:fontFamily="@font/poppins_semibold"
+        android:maxLength="50"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="Des"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textoPreco"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/image_rot"
+        android:fontFamily="@font/poppins_semibold"
+        android:maxLength="50"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="Des"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textoDuracao"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/image_rot"
+        android:fontFamily="@font/poppins_semibold"
+        android:maxLength="50"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="Des"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textoDescricao"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="-173dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="-106dp"
+        android:layout_toRightOf="@+id/image_rot"
+        android:alpha=".5"
+        android:fontFamily="@font/poppins_semibold"
+        android:maxLength="300"
+        android:maxLines="300"
+        android:singleLine="false"
+        android:text="Des"
+        android:textAlignment="textStart"
+        android:textSize="14dp"
+        android:translationX="5dp" />
+
+</RelativeLayout>

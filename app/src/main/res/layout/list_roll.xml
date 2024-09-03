@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@color/colorAccent"
+        android:translationX="2dp"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imageinstagram"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:src="@color/colorAccent"
+        android:translationX="99dp"
+        android:translationY="29dp"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textoTitulo"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/image"
+        android:text="Name"
+        android:fontFamily="@font/poppins_semibold"
+        />
+
+    <TextView
+        android:id="@+id/textoInstagram"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="250dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:maxLength="50"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:text="Des"
+        android:textSize="10sp"
+        android:translationX="114dp"
+        android:translationY="5dp" />
+
+    <TextView
+        android:id="@+id/textoDescricaoGuia"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/image"
+        android:alpha=".5"
+        android:fontFamily="@font/poppins_semibold"
+        android:maxLength="200"
+        android:maxLines="200"
+        android:singleLine="false"
+        android:text="Des"
+        android:textSize="12sp" />
+
+</RelativeLayout>
